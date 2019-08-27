@@ -17,4 +17,17 @@
     width: 40%;
     height: 120px;
     background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.menuItem:hover {
+    box-shadow: 0 0 6px 0 dimgrey;
+}
+
+.menuItemP {
+    display: inline-block;
+    margin-bottom: 20px;
 }

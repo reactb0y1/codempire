@@ -15,7 +15,9 @@ class Menu extends Component {
         const menuItems = this.state.menuItems;
 
         const item = menuItems.map((menuItem) =>
-            <li className='menuItem'>{menuItem.name}</li>
+            <li className='menuItem'>
+                <p className='menuItemP'>{menuItem.name}</p>
+            </li>
         )
 
         return item
