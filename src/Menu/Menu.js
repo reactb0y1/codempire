@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './Menu.css'
 import Edit from './Edit/Edit'
+import {Link} from 'react-router-dom'
 
 class Menu extends Component {
     state = {
@@ -18,7 +19,7 @@ class Menu extends Component {
 
         const item = menuItems.map((menuItem) =>
             <li className='menuItem'>
-                <p className='menuItemP'>{menuItem.name}</p>
+                <Link to='/edit'>{menuItem.name}</Link>
             </li>
         )
 
