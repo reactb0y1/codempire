@@ -1,6 +1,7 @@
 import React from 'react';
 import Menu from './Menu/Menu'
 import Edit from './Menu/Edit/Edit'
+import Order from './Order/Order'
 import {Switch, Route} from 'react-router-dom'
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={Menu}/>
         <Route path='/edit' component={Edit}/>
-        {/*<Route path='order' component={Order}/>*/}
+        <Route path='order' component={Order}/>
       </Switch>
   );
 }
