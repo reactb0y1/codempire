@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import './Menu.css'
-import Edit from './Edit/Edit'
 import {Link} from 'react-router-dom'
 
 class Menu extends Component {

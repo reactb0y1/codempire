@@ -1,6 +1,6 @@
 import React from 'react';
 import Menu from './Menu/Menu'
-import Edit from './Menu/Edit/Edit'
+import Edit from './Edit/Edit'
 import Order from './Order/Order'
 import {Switch, Route} from 'react-router-dom'
 
