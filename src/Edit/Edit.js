@@ -50,8 +50,12 @@ class Edit extends Component {
 
                     </main>
 
-                    <aside className="EditPhotoContainer">
-                        <img src="" alt="" className="EditPhoto"/>
+                    <aside className="EditBurgerInfoContainer">
+
+                        <h3 className="nameBurger">Гамбургер</h3>
+
+                        <span className="EditPhoto"></span>
+
                     </aside>
 
                 </sector>

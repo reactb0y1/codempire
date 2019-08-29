@@ -47,8 +47,26 @@
     margin-top: 20px;
 }
 
-.EditPhotoContainer {
+.EditBurgerInfoContainer {
+    width: 50%;
     background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nameBurger {
+    margin-top: 20px;
+}
+
+.EditPhoto {
+    width: 100%;
+    height: 80%;
+    background-image: url(./../Menu/img/hamburger.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .counter {
@@ -77,5 +95,9 @@
 .ingredientAmount {
     position: relative;
     top: 3px;
+}
+
+.EditPhoto {
+    display: block;
 }
 
