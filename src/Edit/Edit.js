@@ -60,9 +60,11 @@ class Edit extends Component {
 
                 </sector>
 
-                <button>
-                    <Link to='/order'>Продолжить</Link>
-                </button>
+                    <Link to='/order'  className='EditLink'>
+                        <button className='EditButton'>
+                            Продолжить
+                        </button>
+                    </Link>
 
             </div>
         )
