@@ -17,9 +17,9 @@ class Edit extends Component {
         const ingredients = this.state.ingredients;
 
         const item = ingredients.map((ingredient) =>
-            <li>
-                <span>{ingredient.name}</span>
-                <span>{ingredient.amount}</span>
+            <li className='ingredient'>
+                <span className='ingredientName'>{ingredient.name}</span>
+                <span className='ingredientAmount'>{ingredient.amount}</span>
             </li>
         )
 
