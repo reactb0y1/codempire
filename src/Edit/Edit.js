@@ -36,7 +36,13 @@ class Edit extends Component {
 
                 <sector className="EditMid">
 
-                    <main className="ingredientsContainer"></main>
+                    <main className="ingredientsContainer">
+
+                        <ul className="ingredients">
+                            {this.makeList()}
+                        </ul>
+
+                    </main>
 
                     <aside className="EditPhotoContainer">
                         <img src="" alt="" className="EditPhoto"/>
