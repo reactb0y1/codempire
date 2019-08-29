@@ -33,6 +33,11 @@ class Menu extends Component {
     render() {
         return (
             <div className='menuContainer'>
+
+                <header className='EditHeader'>
+                    <h2 className="EditHeaderText">Меню</h2>
+                </header>
+
                 <ul className='Menu'>
                     {this.makeList()}
                 </ul>
