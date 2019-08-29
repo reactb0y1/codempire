@@ -33,6 +33,13 @@
     margin: 10px 0;
     background-color: rgba(0,0,0,0.1);
     height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ingredientName {
+    margin-left: 30px;
 }
 
 .ingredients {
@@ -42,4 +49,26 @@
 
 .EditPhotoContainer {
     background-color: lightcyan;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.counter_minus {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-image: url(img/ico_-.png);
+    cursor: pointer;
+}
+
+.counter_plus {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-image: url(img/ico_+.png);
+    cursor: pointer;
 }

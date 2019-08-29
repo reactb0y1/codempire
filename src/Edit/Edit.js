@@ -19,7 +19,11 @@ class Edit extends Component {
         const item = ingredients.map((ingredient) =>
             <li className='ingredient'>
                 <span className='ingredientName'>{ingredient.name}</span>
-                <span className='ingredientAmount'>{ingredient.amount}</span>
+                <span className="counter">
+                    <span className="counter_minus"></span>
+                    <span className='ingredientAmount'>{ingredient.amount}</span>
+                    <span className="counter_plus"></span>
+                </span>
             </li>
         )
 
