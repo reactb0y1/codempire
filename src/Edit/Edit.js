@@ -13,6 +13,19 @@ class Edit extends Component {
         ]
     }
 
+    makeList() {
+        const ingredients = this.state.ingredients;
+
+        const item = ingredients.map((ingredient) =>
+            <li>
+                <span>{ingredient.name}</span>
+                <span>{ingredient.amount}</span>
+            </li>
+        )
+
+        return item
+    }
+
     render() {
         return (
             <div className='EditContainer'>
