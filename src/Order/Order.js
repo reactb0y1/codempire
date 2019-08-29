@@ -25,7 +25,10 @@ class Order extends Component {
 
                         <button className='OrderButton'>Заказать</button>
 
-                        <button className='OrderAddButton'>Добавить ещё 1 бургер и заказать</button>
+                        <button className='OrderAddButton'>
+                            <p className='OrderAddButtonP'>Добавить ещё 1 бургер и </p>
+                            заказать
+                        </button>
 
                         <Link to='/'>
                             <button className='OrderEndButton'>
