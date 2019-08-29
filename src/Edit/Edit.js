@@ -38,6 +38,8 @@ class Edit extends Component {
 
                     <main className="ingredientsContainer">
 
+                        <h3 className="ingredientsHead">Ингредиенты</h3>
+
                         <ul className="ingredients">
                             {this.makeList()}
                         </ul>
