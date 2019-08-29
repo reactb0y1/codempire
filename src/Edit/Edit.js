@@ -3,6 +3,16 @@ import './Edit.css'
 import {Link} from 'react-router-dom'
 
 class Edit extends Component {
+    state = {
+        ingredients: [
+            {name: 'Бекон', amount: '1'},
+            {name: 'Сыр', amount: '2'},
+            {name: 'Котлета', amount: '1'},
+            {name: 'Булка', amount: '2'},
+            {name: 'Кетчуп', amount: '1'}
+        ]
+    }
+
     render() {
         return (
             <div className='EditContainer'>
