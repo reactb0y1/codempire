@@ -1,0 +1,114 @@
+.EditHeader {
+    width: 100%;
+    height: 50px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.EditMid {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredientsContainer, .EditBurgerInfoContainer {
+    width: calc(50% - 5px);
+    height: auto;
+}
+
+.ingredientsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightcoral;
+}
+
+.ingredientsHead {
+    margin-top: 20px;
+}
+
+.ingredient {
+    margin: 10px 0;
+    background-color: rgba(0,0,0,0.1);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ingredientName {
+    margin-left: 30px;
+}
+
+.ingredients {
+    width: 90%;
+    margin-top: 20px;
+}
+
+.EditBurgerInfoContainer {
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nameBurger {
+    margin-top: 20px;
+}
+
+.EditPhoto {
+    width: 100%;
+    height: 80%;
+    background-image: url(./../Menu/img/hamburger.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.counter {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.counter_minus, .counter_plus {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.counter_minus {
+    background-image: url(img/ico_-.png);
+}
+
+.counter_plus {
+    background-image: url(img/ico_+.png);
+}
+
+.ingredientAmount {
+    position: relative;
+    top: 3px;
+}
+
+.EditPhoto {
+    display: block;
+}
+
+.EditButton {
+    width: 100%;
+    height: 50px;
+    background-color: #ffe46e;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
