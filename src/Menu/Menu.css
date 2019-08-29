@@ -14,8 +14,8 @@
 }
 
 .menuItem {
-    width: 40%;
-    height: 120px;
+    width: calc(50% - 30px);
+    height: 230px;
     background-color: lightsalmon;
     display: flex;
     justify-content: center;
@@ -30,4 +30,33 @@
 .menuItemP {
     display: inline-block;
     margin-bottom: 20px;
+}
+
+.MenuLink {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.menuItemImg {
+    width: 100%;
+    height: 80%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#burger_1 {background-image: url(img/hamburger.png)}
+#burger_2 {background-image: url(img/cheeseburger.png)}
+#burger_3 {background-image: url(img/chickenburger.png)}
+#burger_4 {background-image: url(img/fishburger.png)}
+
+.menuItemName {
+    margin-bottom: 10px;
 }

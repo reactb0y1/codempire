@@ -5,10 +5,10 @@ import {Link} from 'react-router-dom'
 class Menu extends Component {
     state = {
         menuItems: [
-            {name: 'Гамбургер'},
-            {name: 'Чизбургер'},
-            {name: 'Чикенбургер'},
-            {name: 'Фишбургер'}
+            {name: 'Гамбургер', id: 'burger_1'},
+            {name: 'Чизбургер', id: 'burger_2'},
+            {name: 'Чикенбургер', id: 'burger_3'},
+            {name: 'Фишбургер', id: 'burger_4'}
         ]
     };
 
@@ -17,7 +17,13 @@ class Menu extends Component {
 
         const item = menuItems.map((menuItem) =>
             <li className='menuItem'>
-                <Link to='/edit'>{menuItem.name}</Link>
+                <Link to='/edit' className='MenuLink'>
+                    <span
+                        className='menuItemImg'
+                        id={menuItem.id}
+                    />
+                    <p className="menuItemName">{menuItem.name}</p>
+                </Link>
             </li>
         )
 
