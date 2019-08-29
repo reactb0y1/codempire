@@ -21,13 +21,21 @@ class Order extends Component {
 
                     </aside>
 
-                </sector>
+                    <main className='mainOrder'>
 
-                <Link to='/'>
-                    <button className='EditButton'>
-                        Завершить
-                    </button>
-                </Link>
+                        <button className='OrderButton'>Заказать</button>
+
+                        <button className='OrderAddButton'>Добавить ещё 1 бургер и заказать</button>
+
+                        <Link to='/'>
+                            <button className='OrderEndButton'>
+                                Завершить
+                            </button>
+                        </Link>
+
+                    </main>
+
+                </sector>
 
             </div>
 
