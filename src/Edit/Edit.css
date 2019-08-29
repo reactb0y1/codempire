@@ -19,7 +19,25 @@
 }
 
 .ingredientsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: lightcoral;
+}
+
+.ingredientsHead {
+    margin-top: 20px;
+}
+
+.ingredient {
+    margin: 10px 0;
+    background-color: rgba(0,0,0,0.1);
+    height: 40px;
+}
+
+.ingredients {
+    width: 90%;
+    margin-top: 20px;
 }
 
 .EditPhotoContainer {
