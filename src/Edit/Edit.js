@@ -40,6 +40,14 @@ class Edit extends Component {
 
                 <sector className="EditMid">
 
+                    <aside className="EditBurgerInfoContainer">
+
+                        <h3 className="nameBurger">Гамбургер</h3>
+
+                        <span className="EditPhoto"></span>
+
+                    </aside>
+
                     <main className="ingredientsContainer">
 
                         <h3 className="ingredientsHead">Ингредиенты</h3>
@@ -49,14 +57,6 @@ class Edit extends Component {
                         </ul>
 
                     </main>
-
-                    <aside className="EditBurgerInfoContainer">
-
-                        <h3 className="nameBurger">Гамбургер</h3>
-
-                        <span className="EditPhoto"></span>
-
-                    </aside>
 
                 </sector>
 
