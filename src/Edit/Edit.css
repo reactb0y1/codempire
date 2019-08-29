@@ -52,23 +52,30 @@
 }
 
 .counter {
+    width: 80px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-right: 30px;
 }
 
-.counter_minus {
+.counter_minus, .counter_plus {
     width: 25px;
     height: 25px;
     display: inline-block;
-    background-image: url(img/ico_-.png);
     cursor: pointer;
 }
 
-.counter_plus {
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-    background-image: url(img/ico_+.png);
-    cursor: pointer;
+.counter_minus {
+    background-image: url(img/ico_-.png);
 }
+
+.counter_plus {
+    background-image: url(img/ico_+.png);
+}
+
+.ingredientAmount {
+    position: relative;
+    top: 3px;
+}
+
