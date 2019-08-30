@@ -17,7 +17,7 @@ class Menu extends Component {
 
         const item = menuItems.map((menuItem) =>
             <li className='menuItem'>
-                <Link to='/edit' className='MenuLink'>
+                <Link to='/burger' className='MenuLink'>
                     <span
                         className='menuItemImg'
                         id={menuItem.id}

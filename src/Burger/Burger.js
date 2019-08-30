@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
-import './Edit.css'
+import './Burger.css'
 import {Link} from 'react-router-dom'
 
-class Edit extends Component {
+class Burger extends Component {
     state = {
         ingredients: [
             {name: 'Бекон', amount: '1'},
@@ -71,4 +71,4 @@ class Edit extends Component {
     }
 }
 
-export default Edit
+export default Burger

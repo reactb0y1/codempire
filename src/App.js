@@ -1,6 +1,6 @@
 import React from 'react';
 import Menu from './Menu/Menu'
-import Edit from './Edit/Edit'
+import Burger from './Burger/Burger'
 import Order from './Order/Order'
 import {Switch, Route} from 'react-router-dom'
 
@@ -8,7 +8,7 @@ function App() {
   return (
       <Switch>
         <Route exact path='/' component={Menu}/>
-        <Route path='/edit' component={Edit}/>
+        <Route path='/burger' component={Burger}/>
         <Route path='/order' component={Order}/>
       </Switch>
   );
