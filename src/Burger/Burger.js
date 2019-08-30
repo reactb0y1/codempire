@@ -1,20 +1,19 @@
 import React, {Component} from 'react'
 import './Burger.css'
+import menu from './../res/dataBase'
 import {Link} from 'react-router-dom'
 
 class Burger extends Component {
-    state = {
-        ingredients: [
-            {name: 'Бекон', amount: '1'},
-            {name: 'Сыр', amount: '2'},
-            {name: 'Котлета', amount: '1'},
-            {name: 'Булка', amount: '2'},
-            {name: 'Кетчуп', amount: '1'}
-        ]
-    }
 
     makeList() {
-        const ingredients = this.state.ingredients;
+        const ID = this.props.match.params.id;
+
+        // Определяем какой именно объект из массива брать
+        for(let i = 0; i < menu.length; i++) {
+            if (menu[i].id === ID) {
+                var ingredients = menu[i].ingredients;
+            }
+        }
 
         const item = ingredients.map((ingredient) =>
             <li className='ingredient'>
