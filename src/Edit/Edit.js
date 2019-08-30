@@ -56,15 +56,15 @@ class Edit extends Component {
                             {this.makeList()}
                         </ul>
 
+                        <Link to='/order'  className='EditLink'>
+                            <button className='EditButton'>
+                                Продолжить
+                            </button>
+                        </Link>
+
                     </main>
 
                 </sector>
-
-                    <Link to='/order'  className='EditLink'>
-                        <button className='EditButton'>
-                            Продолжить
-                        </button>
-                    </Link>
 
             </div>
         )
