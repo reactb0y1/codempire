@@ -1,19 +1,12 @@
 import React, {Component} from 'react'
 import './Menu.css'
+import menu from './../res/dataBase'
 import {Link} from 'react-router-dom'
 
 class Menu extends Component {
-    state = {
-        menuItems: [
-            {name: 'Гамбургер', id: 'burger_1'},
-            {name: 'Чизбургер', id: 'burger_2'},
-            {name: 'Чикенбургер', id: 'burger_3'},
-            {name: 'Фишбургер', id: 'burger_4'}
-        ]
-    };
-
     makeList() {
-        const menuItems = this.state.menuItems;
+        const menuItems = menu;
+        console.log("---", menuItems);
 
         const item = menuItems.map((menuItem) =>
             <li className='menuItem'>
