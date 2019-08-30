@@ -65,7 +65,7 @@
 .EditPhoto {
     width: 100%;
     height: 80%;
-    background-image: url(./../Menu/img/hamburger.png);
+    background-image: url(../res/img/hamburger.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

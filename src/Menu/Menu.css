@@ -52,10 +52,10 @@
     background-size: contain;
 }
 
-#burger_1 {background-image: url(img/hamburger.png)}
-#burger_2 {background-image: url(img/cheeseburger.png)}
-#burger_3 {background-image: url(img/chickenburger.png)}
-#burger_4 {background-image: url(img/fishburger.png)}
+#burger_1 {background-image: url(../res/img/hamburger.png)}
+#burger_2 {background-image: url(../res/img/cheeseburger.png)}
+#burger_3 {background-image: url(../res/img/chickenburger.png)}
+#burger_4 {background-image: url(../res/img/fishburger.png)}
 
 .menuItemName {
     margin-bottom: 10px;
