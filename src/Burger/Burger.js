@@ -30,6 +30,17 @@ class Burger extends Component {
     }
 
     render() {
+
+        const ID = this.props.match.params.id;
+
+        // Определяем какой именно объект из массива брать
+        for(let i = 0; i < menu.length; i++) {
+            if (menu[i].id === ID) {
+                var name = menu[i].name;
+                var id = menu[i].id;
+            }
+        }
+
         return (
             <div className='EditContainer'>
 
@@ -41,9 +52,12 @@ class Burger extends Component {
 
                     <aside className="EditBurgerInfoContainer">
 
-                        <h3 className="nameBurger">Гамбургер</h3>
+                        <h3 className="nameBurger">{name}</h3>
 
-                        <span className="EditPhoto"/>
+                        <span
+                            className="EditPhoto"
+                            id={id + "EditPhoto"}
+                        />
 
                     </aside>
 

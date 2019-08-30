@@ -65,10 +65,21 @@
 .EditPhoto {
     width: 100%;
     height: 80%;
-    background-image: url(../res/img/hamburger.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+#hamburgerEditPhoto {
+    background-image: url(../res/img/hamburger.png);
+}
+#cheeseburgerEditPhoto {
+    background-image: url(../res/img/cheeseburger.png);
+}
+#chickenburgerEditPhoto {
+    background-image: url(../res/img/chickenburger.png);
+}
+#fishburgerEditPhoto {
+    background-image: url(../res/img/fishburger.png);
 }
 
 .counter {
