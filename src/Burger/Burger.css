@@ -33,9 +33,9 @@
 }
 
 .ingredient {
-    margin: 10px 0;
+    margin: 7px 0;
     background-color: rgba(0,0,0,0.1);
-    height: 40px;
+    height: 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,7 +47,6 @@
 
 .ingredients {
     width: 90%;
-    margin-top: 20px;
 }
 
 .EditBurgerInfoContainer {
@@ -95,6 +94,8 @@
     height: 25px;
     display: inline-block;
     cursor: pointer;
+    position: relative;
+    top: -1px;
 }
 
 .counter_minus {
@@ -107,7 +108,7 @@
 
 .ingredientAmount {
     position: relative;
-    top: 3px;
+    top: 1px;
 }
 
 .EditPhoto {
