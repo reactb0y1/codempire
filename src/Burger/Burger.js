@@ -19,12 +19,12 @@ class Burger extends Component {
             <li className='ingredient'>
                 <span className='ingredientName'>{ingredient.name}</span>
                 <span className="counter">
-                    <span className="counter_minus"></span>
+                    <span className="counter_minus"/>
                     <span className='ingredientAmount'>{ingredient.amount}</span>
-                    <span className="counter_plus"></span>
+                    <span className="counter_plus"/>
                 </span>
             </li>
-        )
+        );
 
         return item
     }
@@ -43,7 +43,7 @@ class Burger extends Component {
 
                         <h3 className="nameBurger">Гамбургер</h3>
 
-                        <span className="EditPhoto"></span>
+                        <span className="EditPhoto"/>
 
                     </aside>
 
